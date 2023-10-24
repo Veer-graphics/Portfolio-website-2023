@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="home/favicon.png">
+</head>
+<body>
+    <div class="overlay">
+        <section class="mobile-menu-container">
+            <button class="close-btn"><i class="fa-solid fa-x"></i></button>
+            <ul class="mobile-menu">
+                <li><a href="index.html" class="mobile-nav-link nav-link">Home</a></li>
+                <li class="active-list-item"><a href="over-mij.html" class="mobile-nav-link nav-link active-link">Over Mij</a></li>
+                <li><a href="projecten.html" class="mobile-nav-link nav-link">Projecten</a></li>
+                <li><a href="contact.html" class="mobile-nav-link nav-link">Contact</a></li>
+                <li class="cyan-circle cyan-circle-one"></li>
+                <li class="cyan-circle cyan-circle-two"></li>
+            </ul>
+        </section>
+    </div>
+
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="wrapper">
+                <a href="index.html"><img src="home/logo-official.svg" alt="portfolio-logo" class="logo"></a>
+                <div class="nav-right">
+                    <ul class="desktop-menu">
+                        <li><a href="index.html" class="desktop-nav-link nav-link">Home</a></li>
+                        <li><a href="over-mij.html" class="desktop-nav-link nav-link active-link">Over Mij</a></li>
+                        <li><a href="projecten.html" class="desktop-nav-link nav-link">Projecten</a></li>
+                        <li><a href="contact.html" class="desktop-nav-link nav-link">Contact</a></li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <button class="menuToggle">
+                            <i class="fa-solid fa-bars-staggered hamburger"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    <!-- header -->
+    <header class="header over-mij-header">
+        <div class="wrapper">
+            <!-- hero -->
+            <section class="hero">
+                <div class="hero-grid">
+                    <div class="gridbox img-wrapper"><img src="over-mij/vera.png" alt="vera"></div>
+                    <div class="gridbox text-wrapper">
+                        <div class="textbox">
+                            <p class="subheading">Alles wat je moet weten</p>
+                            <h1 class="hero-heading toekomst">Over Mij</h1>
+                        </div>
+                        <button class="btn primary-btn" onclick="window.location.href='#vaardigheden'">Ontdek <i class="fa-solid fa-arrow-right-long white-arrow"></i> <div class="circle white-circle"></div></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- breadcrumbs -->
+    <section class="breadcrumb-section">
+        <div class="wrapper">
+            <ul class="breadcrumbs">
+                <li><a href="index.html" class="breadcrumb">Home</a></li>
+                <li class="bubble"></li>
+                <li><a href="over-mij.html" class="breadcrumb">Over Mij</a></li>
+            </ul>   
+        </div>
+    </section>
+    <!-- main -->
+    <main>
+        <!-- introduction -->
+        <section class="intro">
+            <div class="wrapper">
+                <div class="floating-dots">
+                    <div class="intro-dot dot-one"></div>
+                    <div class="intro-dot dot-two"></div>
+                </div>
+                <div class="text-wrapper">
+                    <h2 class="intro-title second-heading">Even introduceren</h2>
+                    <p class="intro-description">Hi! Ik ben Vera. Ik ben nu een vierdejaars Mediavormgeving student met de potentie om nog zoveel mogelijk nieuwe dingen te leren. Op deze pagina kom je erachter wie ik nou eigenlijk ben.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- usps -->
+        <section class="usps over-mij-usps" id="vaardigheden">
+            <h2 class="intro-title">Mijn Vaardigheden</h2>
+            <div class="usp-bg grey-bg"></div>
+            <div class="wrapper">
+                <div class="usp-grid skill-grid">
+                    <div class="gridbox usp-box">
+                        <div class="usp-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h3 class="usp-subheading">Oog voor detail</h3>
+                    </div>
+                    <div class="gridbox usp-box">
+                        <div class="usp-icon"><i class="fa-solid fa-arrow-up-right-dots"></i></div>
+                        <h3 class="usp-subheading">Gemotiveerd</h3>
+                    </div>
+                    <div class="gridbox usp-box">
+                        <div class="usp-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h3 class="usp-subheading">Nieuwsgierig </h3>
+                    </div>
+                    <div class="gridbox usp-box">
+                        <div class="usp-icon"><i class="fa-solid fa-table-columns"></i></div>
+                        <h3 class="usp-subheading">Nette werkhouding</h3>
+                    </div>
+                    <div class="gridbox usp-box">
+                        <div class="usp-icon"><i class="fa-solid fa-book"></i></div>
+                        <h3 class="usp-subheading">Uitbundige onderzoeker</h3>
+                    </div>
+                    <div class="gridbox usp-box">
+                        <div class="usp-icon"><i class="fa-solid fa-heart"></i></div>
+                        <h3 class="usp-subheading">Passie voor mijn werk</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- banner -->
+        <section class="banner over-mij-banner">
+            <div class="banner-bg orange-bg"></div>
+            <div class="wrapper">
+                <div class="banner-card">
+                    <div class="banner-grid">
+                        <div class="gridbox text-wrapper">
+                            <div class="banner-text">
+                                <h2 class="second-heading">Wist je dat...</h2>
+                                <p class="banner-description">
+                                    ik altijd klaar sta om nieuwe dingen uit te proberen? Wanneer het kan volg ik tutorials om mezelf nieuwe vaardigheden bij te school
+                                    <br>
+                                    <br>
+                                    <span class="italic">Nieuwsgierig naar meer? Bekijk dan eens m'n PhantasiaHub project.</span>
+                                </p>
+                            </div>
+                            <button class="btn primary-btn" onclick="window.location.href='phantasiaHub.html'">Ontdek <i class="fa-solid fa-arrow-right-long white-arrow"></i> <div class="circle white-circle"></div></button>
+                        </div>
+                        <div class="gridbox img-wrapper"><img src="over-mij/phantasiahub.png" alt="phantasiaHub-preview"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- werkervaring -->
+        <section class="projecten testimonial-section">
+            <div class="cyan-bg project-bg"></div>
+            <div class="wrapper">
+                <div class="projecten-intro">
+                    <div class="text-wrapper">
+                        <h2 class="intro-title">Werkervaring</h2>
+                        <p class="intro-description">Tijdens m'n school-en stageperiode heb ik veel nieuwe ervaring opgedaan.</p>
+                    </div>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>
+                                "Vera is een goede luisteraar en levert werk waar je naar vraagt! Flexibel, zelfstandig, maar weet ook de juiste vragen te stellen! Erg creatief en een aanrader voor animaties (maar eigenlijk ook al het andere werk)!"
+                            </p>
+                                <span class="testimonial-writer">Daphne Visser</span>
+                                <br>
+                                <small>Designer bij Intermix</small>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>
+                                "Vera is een hardwerkende art designer. Ze werkt vol passie, planmatig en stopt pas echt als de klant en zij tevreden is. Ze is eerlijk en transparant en voorziet jou van een goed advies. Haar creaties zijn supermooi! Wij van Social Impulz raden haar zeker aan!"
+                            </p>
+                            <span class="testimonial-writer">Jaenela Dossett</span>
+                            <br>
+                            <small>Maatschappelijk werker bij Social Impulz</small>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        
+    </main>
+
+        <!-- footer -->
+        <footer class="footer">
+            <!-- footer-card -->
+            <div class="footer-card">
+                <div class="text-wrapper">
+                    <h2 class="second-heading">Nieuwsgierig?</h2>
+                    <p class="footercard-description">Met één klik op de knop download je zo m'n CV.</p>
+                    <a href="home/CV-VeraBest.pdf" class="download-btn btn" download>Download <i class="fa-solid fa-download"></i></a>
+                </div>
+                
+            </div>
+            <!-- footer itself -->
+            <section class="footer-container">
+                <div class="wrapper">
+                    <img src="home/logo-official.svg" alt="portfolio-logo" class="footer-logo logo">
+                    <div class="footer-grid">
+                        <div class="gridbox contact-box">
+                            <p class="footer-subheading">Contact</p>
+                            <ul class="contact-list">
+                                <li><i class="footer-icon fa-solid fa-phone"></i> +31 6 53743791</li>
+                                <li><i class="footer-icon fa-solid fa-envelope"></i> d.v.best.12@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="gridbox nav-box">
+                            <p class="footer-subheading">Pagina's</p>
+                            <ul class="footer-menu">
+                                <li><a href="index.html" class="footer-link">Home</a></li>
+                                <li><a href="over-mij.html" class="footer-link active-footer-link">Over Mij</a></li>
+                                <li><a href="projecten.html" class="footer-link">Projecten</a></li>
+                                <li><a href="contact.html" class="footer-link">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="gridbox socialmedia-box">
+                            <p class="footer-subheading">Social media</p>
+                            <ul class="socials">
+                                <li class="social-circle"><a href="https://www.instagram.com/veer_graphicdesign/" target="_blank" class="social-link"><i class="social-icon fa-brands fa-instagram"></i></a></li>
+                                <li class="social-circle"><a href="https://dribbble.com/Veer_" target="_blank" class="social-link"><i class="social-icon fa-brands fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <section class="copyright">&copy; Vera Best</section>
+        <!-- js -->
+        <script src="app.js"></script>
+</body>

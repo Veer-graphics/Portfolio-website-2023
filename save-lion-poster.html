@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="home/favicon.png">
+</head>
+
+<body>
+    <div class="overlay">
+        <section class="mobile-menu-container">
+            <button class="close-btn"><i class="fa-solid fa-x"></i></button>
+            <ul class="mobile-menu">
+                <li><a href="index.html" class="mobile-nav-link nav-link">Home</a></li>
+                <li class="active-list-item"><a href="over-mij.html" class="mobile-nav-link nav-link">Over Mij</a></li>
+                <li><a href="projecten.html" class="mobile-nav-link nav-link active-link">Projecten</a></li>
+                <li><a href="contact.html" class="mobile-nav-link nav-link">Contact</a></li>
+                <li class="cyan-circle cyan-circle-one"></li>
+                <li class="cyan-circle cyan-circle-two"></li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="wrapper">
+            <a href="index.html"><img src="home/logo-official.svg" alt="portfolio-logo" class="logo"></a>
+            <div class="nav-right">
+                <ul class="desktop-menu">
+                    <li><a href="index.html" class="desktop-nav-link nav-link">Home</a></li>
+                    <li><a href="over-mij.html" class="desktop-nav-link nav-link ">Over Mij</a></li>
+                    <li><a href="projecten.html" class="desktop-nav-link nav-link active-link">Projecten</a></li>
+                    <li><a href="contact.html" class="desktop-nav-link nav-link">Contact</a></li>
+                </ul>
+                <div class="button-wrapper">
+                    <button class="menuToggle">
+                        <i class="fa-solid fa-bars-staggered hamburger"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav> 
+
+        <!-- header -->
+        <header class="header project-detail-header">
+            <div class="wrapper">
+                <!-- hero -->
+                <section class="hero project-detail-hero">
+                    <a href="projecten.html" class="go-back">Ga terug</a>
+                    <div class="hero-grid project-grid">
+                        <div class="gridbox img-wrapper">
+                           <img src="projecten/Lion poster low.png" alt="">
+                        </div>
+                        <div class="gridbox text-wrapper">
+                            <div class="textbox">
+                                <h1 class="hero-heading toekomst">Donatie poster</h1>
+                                <p class="project-description">
+                                    In m’n vrije tijd heb ik in Photoshop een poster van de film Iron Man gemaakt, om m’n Photoshop skills te verbeteren.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+                <!-- footer -->
+                <footer class="footer projecten-footer">
+                    <!-- footer-card -->
+                    <div class="footer-card">
+                        <div class="text-wrapper">
+                            <h2 class="second-heading">Nieuwsgierig?</h2>
+                            <p class="footercard-description">Met één klik op de knop download je zo m'n CV.</p>
+                            <a href="" class="download-btn btn" download>Download <i class="fa-solid fa-download"></i></a>
+                        </div>
+                        
+                    </div>
+                    <!-- footer itself -->
+                    <section class="footer-container">
+                        <div class="wrapper">
+                            <img src="home/logo-official.svg" alt="portfolio-logo" class="footer-logo logo">
+                            <div class="footer-grid">
+                                <div class="gridbox contact-box">
+                                    <p class="footer-subheading">Contact</p>
+                                    <ul class="contact-list">
+                                        <li><i class="footer-icon fa-solid fa-phone"></i> +31 6 53743791</li>
+                                        <li><i class="footer-icon fa-solid fa-envelope"></i> d.v.best.12@gmail.com</li>
+                                    </ul>
+                                </div>
+                                <div class="gridbox nav-box">
+                                    <p class="footer-subheading">Pagina's</p>
+                                    <ul class="footer-menu">
+                                        <li><a href="index.html" class="footer-link">Home</a></li>
+                                        <li><a href="over-mij.html" class="footer-link">Over Mij</a></li>
+                                        <li><a href="projecten.html" class="active-footer-link">Projecten</a></li>
+                                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="gridbox socialmedia-box">
+                                    <p class="footer-subheading">Social media</p>
+                                    <ul class="socials">
+                                        <li class="social-circle"><a href="https://www.instagram.com/veer_graphicdesign/" target="_blank" class="social-link"><i class="social-icon fa-brands fa-instagram"></i></a></li>
+                                        <li class="social-circle"><a href="https://dribbble.com/Veer_" target="_blank" class="social-link"><i class="social-icon fa-brands fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </footer>
+                <section class="copyright">&copy; Vera Best</section>
+        <script src="app.js"></script>
+</body>
